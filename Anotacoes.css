@@ -1,0 +1,33 @@
+code {
+    width:140px;
+    border:2px solid rgb(90, 90, 90);
+    background-color: lightblue;
+    padding: 1px 1px;
+    color: rgb(47, 47, 47);
+    margin-left: 3%;
+    font-size: 15px;
+}
+
+h2 button {
+    background-color: #024780;
+    color: white;
+    font-size: 24px;
+    width: 35px;
+    height: 35px;
+    align-self: center;
+}
+
+body {
+    background-color: #024780;
+    color: white;
+    font-size: 15px;
+}
+p {
+    font-size: 15px;
+}
+
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}

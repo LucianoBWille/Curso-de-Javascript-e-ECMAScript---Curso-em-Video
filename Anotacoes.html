@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Anotações - Curso de JavaScript e ECMAScript - Curso em Vídeo
+        </title>
+        <link rel="stylesheet" href="Anotacoes.css" type="text/css" media="screen" />
+        <script src="Anotacoes.js"></script>
+    </head>
+    <body>
+        <h1>
+            Anotações - Curso de JavaScript e ECMAScript - Curso em Vídeo
+        </h1>
+        <h2>
+            <button id="aula01" onclick="display_yes_no('aula01')">+</button> Aula 01 
+        </h2>
+        <div id='aula01' style="display: none;">
+            <p>
+                Alerta com "Olá, Mundo"
+            </p>
+            <code>
+                window.alert('Olá, Mundo')
+            </code>
+            <p style="margin-left: 3%;">ou</p>
+            <code>
+                alert('Olá, Mundo')
+            </code>
+            <p>
+                Alterar cor de fundo
+            </p>
+            <code>
+                document.body.style.background = 'black'
+            </code>
+            <p>
+                Alterar cor da logo para scala de cinza
+            </p>
+            <code>
+                document.querySelector('img#hplogo').style.filter = 'grayscale(100%)'
+            </code>
+            <p>
+                Sumir com a logo
+            </p>
+            <code>
+                document.querySelector('img#hplogo').style.visibility = 'hidden'
+            </code>
+            <p>
+                Alterar conteudo do título de uma noticia
+            </p>
+            <code>
+                document.querySelector('span.bstn-hl-title').innerText = 'Banana é coisa de macaco'
+            </code>
+        </div>
+        <h2>
+            <button id="aula02" onclick="display_yes_no('aula02')">+</button> Aula 02
+        </h2>
+        <div id='aula02' style="display: none;" style="margin-left: 2%;">
+            <h3>
+                Evolução do JavaScript
+            </h3>
+            <p>
+                1970 - Nascimento do precessor da internet
+            </p>
+            <p>
+                1993 - Criação do HTML por Tim Berners-Lee
+            </p>
+            <p>
+                1994 - Fundação da Netscape e do Mozila
+            </p>
+            <p>
+                1995 - Criação do Mocha(antecessor do Javascript) e o Java
+            </p>
+            <p>
+                1997 - JavaScript foi padronizada pela ECMA (devido ao JScript, criado pela microsoft para o internet explorer), nascendo o ECMAScript
+            </p>
+            <p>
+                2002 - Mozilla se tornou o Firefox
+            </p>
+            <p>
+                2008 - Google cria o Google Chrome
+            </p>
+            <p>
+                2009 - criação do motor v8 (motor de execução do JavaScript no Google Chrome)
+            </p>
+            <p>
+                2010 - Criação do node.js sobre o v8 do Chrome, executando o JavaScript fora do navegador
+            </p>
+        </div>
+        <h2>
+            <button id="aula03" onclick="display_yes_no('aula03')">+</button> Aula 03
+        </h2>
+        <div id='aula03' style="display: none;">
+            <p>
+                <i>Para aprender é preciso praticar</i>
+            </p>
+            <p>
+                Para o curso vamos:
+                <ul>
+                    <li>
+                        ver os videos
+                    </li>
+                    <li>
+                        praticar
+                    </li>
+                    <li>
+                        ler livros/manuais
+                    </li>
+                    <li>
+                        fazer anotações para consulta posterior
+                    </li>
+                    <li>
+                        estudar com outras pessoas
+                    </li>
+                    <li>
+                        pensar em projetos próprios (exemplos do github)
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Bibliografia:
+                <ul>
+                    <li>
+                        "Javascript: O Guia Definitivo" de David Flanagan, lançado pela editora O'Reilly
+                    </li>
+                    <li>
+                        "Javascript: Guia do Programador" de Maurício Samy Silva
+                    </li>
+                    <li>
+                        "Guia de referência da Mozilla"
+                    </li>
+                    <li>
+                        "Guia de referência da ECMA"
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <i>Para aprender é nescessário ter uma base, em programação essa base é a lógica de programação.</i>
+            </p>
+            <p>
+                Para o curso serão usados:
+                <ul>
+                    <li>
+                        Navegador web
+                    </li>
+                    <li>
+                        Visual Studio Code
+                    </li>
+                    <li>
+                        Node.js
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <h2>
+            <button id="aula04" onclick="display_yes_no('aula04')">+</button> Aula 04
+        </h2>
+        <div id='aula04' style="display: none;">
+            <p>
+                Escrever "html:5" no VSCode para gerar a base para uma pagina em html5
+            </p>
+            <p>
+                O html se baseia em tags de marcação, sendo algumas delas:
+                <ul>
+                    <li><code>&lthtml&gt&lt/html&gt</code> que são a base da página</li>
+                    <li><code>&lthead&gt&lt/head&gt</code> para o cabeçalho da página</li>
+                    <li><code>&ltmeta&gt</code> para inserir os metadados da página</li>
+                    <li><code>&lttitle&gt&lt/title&gt</code> para o titulo dentro do cabeçalho</li>
+                    <li><code>&ltstyle&gt&lt/style&gt</code> para adicionar estilo (CSS) a página</li>
+                    <li><code>&ltbody&gt&lt/body&gt</code> que é o corpo da página</li>
+                    <li><code>&lth1&gt&lt/h1&gt</code> para titulos grandes</li>
+                    <li><code>&lth2&gt&lt/h2&gt</code> para titulos um pouco menores</li>
+                    <li><code>&ltp&gt&lt/p&gt</code> para parágrafos</li>
+                    <li><code>&ltscript&gt&lt/script&gt</code> para inserir codigos JavaScript ao html</li>
+                </ul>
+            </p>
+        </div>
+        <h2>
+            <button id="aula05" onclick="display_yes_no('aula05')">+</button> Aula 05
+        </h2>
+        <div id='aula05' style="display: none;">
+            <h2>
+                Comentários
+            </h2>
+            <p>
+                Comentários no Html
+            </p>
+            <code>
+                &lt!--   --&gt
+            </code>
+            <p>
+                Comentários no JavaScript
+            </p>
+            <code>
+                //
+            </code> uma linha
+            <p style="margin-left: 3%;">
+                ou
+            </p>
+            <code>
+                /* */
+            </code> mais de uma linha
+            <p>
+                Comentários no CSS
+            </p>
+            <code>
+                /* */
+            </code>
+            <h3>
+                Variáveis
+            </h3>
+            <p>
+                <i>Um sinal de igual(=) se le "recebe"</i>
+            </p>
+            <p>
+                Quando um valor está atribuido a uma variável ao atribuir um segundo valor o primeiro é perdido
+            </p>
+            <p>
+                Para esvaziar uma variável é só faze-la receber 'null'
+            </p>
+            <p>
+                Exemplo de criação de variável
+            </p>
+            <code>
+                var a = 5
+            </code>
+            <p>
+                Regras para criação de identificadores (nomes de variável):
+            </p>
+            <ul>
+                <li>
+                    Podem começar com <b style="color: yellow">letras</b>, <b style="color: yellow">$</b> ou <b style="color: yellow">_</b>
+                </li>
+                <li>
+                    Não podem começar com <b style="color: yellow">números</b>
+                </li>
+                <li>
+                    É possível usar <b style="color: yellow">letras</b> ou <b  style="color: yellow">números</b>
+                </li>
+                <li>
+                    É possível usar <b style="color: yellow">acentos</b> e <b style="color: yellow">símbolos</b>
+                </li>
+                <li>
+                    Não podem conter <b style="color: yellow">espaços</b>
+                </li>
+                <li>
+                    Não podem ser <b style="color: yellow">palavras reservadas</b>
+                </li>
+            </ul>
+            <p>
+                Para limpar o console do node <i>ctrl+l</i>
+            </p>
+            <p>
+                Dicas para criação de nomes de variáveis:
+            </p>
+            <ul>
+                <li>
+                    <b style="color: yellow">Maiúsculas</b> e <b style="color: yellow">minúsculas</b> fazem diferença
+                </li>
+                <li>
+                    Tente escolher <b style="color: yellow">nomes coerentes</b> para as variáveis
+                </li>
+                <li>
+                    Evite se tornar um <b style="color: yellow">"programador alfabeto"</b> ou um <b style="color: yellow">"programador contador"</b>
+                </li>
+            </ul>
+            <p>
+                Tipos de Primitivos
+            </p>
+            <ul>
+                <li>
+                    number
+                    <ul>
+                        <li>
+                            infinity
+                        </li>
+                        <li>
+                            NaN
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    string
+                </li>
+                <li>
+                    boolean
+                </li>
+                <li>
+                    null
+                </li>
+                <li>
+                    undefined
+                </li>
+                <li>
+                    object
+                    <ul>
+                        <li>
+                            Array
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    function
+                </li>
+            </ul>
+            <p>
+                Para saber o tipo primitivo de uma variável é só usar o comando:
+            </p>
+            <code>
+                tipeof(var)
+            </code>
+            <p style="margin-left: 3%;">ou</p>
+            <code>tipeof var</code>
+        </div>
+    </body>
+</html>
